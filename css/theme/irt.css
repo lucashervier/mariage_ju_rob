@@ -12,7 +12,14 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:700);
-
+@font-face {
+  font-family: Southland;
+  src: url(../../fonts/Southland/Southland.ttf);
+}
+@font-face {
+  font-family: FuzzyBubbles;
+  src: url(../../fonts/FuzzyBubbles/FuzzyBubbles-Regular.ttf);
+}
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -21,7 +28,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: "Lato", serif;
+  font-family: "Southland", "Lato", serif;
   font-size: 32px;
   font-weight: normal;
   color: #363636; }
@@ -60,7 +67,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  font-family: "Lora", sans-serif;
+  font-family: "FuzzyBubbles", "Southland", "Lora", sans-serif;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: normal;
@@ -69,19 +76,19 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  color: #9478ff;
+  color: #9d3a40;
   font-size: 2em; }
 
 .reveal h2 {
-  color: #9478ff;
+  color: #9d3a40;
   font-size: 1.8em; }
 
 .reveal h3 {
-  color: #141414;
+  color: #9d3a40;
   font-size: 1.4em; }
 
 .reveal h4 {
-  color: #141414;
+  color: #9d3a40;
   font-size: 1.2em; }
 
 .reveal h1 {
